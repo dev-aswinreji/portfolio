@@ -1,4 +1,4 @@
-import HomeHeading from "./components/home-heading";
+import HomeHeading from "./components/heading/heading";
 import "./home.css"
 
 export default function Home(){

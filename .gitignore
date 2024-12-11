@@ -25,3 +25,6 @@ dist-ssr
 
 #environment variables
 env
+
+# Things planned to implement in portfolio
+portfolio-guide.txt

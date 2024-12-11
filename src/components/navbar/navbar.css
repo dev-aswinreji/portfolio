@@ -1,0 +1,5 @@
+.nav-left, .nav-right{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}

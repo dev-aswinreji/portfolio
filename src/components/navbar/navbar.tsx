@@ -6,8 +6,8 @@ export default function Navbar() {
         <nav className="navbar">
             <div className="nav-left">Aswin Reji</div>
             <div className="nav-right">
-                <span>About</span>
-                <span>Contact</span>
+                <a href="#about" className="nav-icon">About</a>
+                <a href="#contact" className="nav-icon">Contact</a>
                 <a href="https://github.com/dev-aswinreji" target="_blank" className="nav-icon">
                     <FaGithub />
                 </a>

@@ -1,20 +1,26 @@
+/* Base styles */
 .nav-left {
     width: 70%;
     float: left;
     box-sizing: border-box;
+    text-align: left;
+    padding: 10px;
 }
 
-.nav-right{
+.nav-right {
     width: 30%;
     float: left;
     box-sizing: border-box;
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
     gap: 20px;
+    padding: 10px;
 }
 
 .navbar {
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: xx-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem; /* More readable size */
     font-weight: bolder;
     font-style: normal;
 }
@@ -22,4 +28,48 @@
 .nav-icon {
     text-decoration: none;
     color: inherit;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-icon:hover {
+    color: #007BFF; /* Add a hover effect */
+    transform: scale(1.1);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav-left {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+
+    .nav-right {
+        width: 100%;
+        justify-content: center;
+        gap: 15px;
+        float: none;
+        margin-top: 10px;
+    }
+
+    .navbar {
+        font-size: 1.25rem; /* Slightly smaller font for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-left, .nav-right {
+        width: 100%;
+        display: block;
+        text-align: center;
+        float: none;
+    }
+
+    .nav-icon {
+        font-size: 1rem; /* Adjust icon size for smaller screens */
+    }
+
+    .navbar {
+        font-size: 1rem; /* Smaller font size for very small screens */
+    }
 }

@@ -7,7 +7,7 @@ export default function ProjectList() {
             description: 'A e-commerce website',
             githubLink: 'https://github.com/dev-aswinreji/buzzbrewsandchills',
             liveDemo: 'http://localhost:3000',
-            techStack: ['Nodejs', 'Expressjs', 'CSS','Embeddedjs'],
+            techStack: ['Nodejs', 'Expressjs', 'CSS', 'Embeddedjs'],
             imageUrl: './project-images/home.png', // Optional
         },
         {
@@ -19,20 +19,23 @@ export default function ProjectList() {
         },
     ];
     return (
-        <div className="project-list">
-            {
-                projects.map((project, index) => (
-                    <ProjectCard
-                        key={index}
-                        title={project.title}
-                        description={project.description}
-                        githublink={project.githubLink}
-                        liveDemo={project.liveDemo}
-                        techStack={project.techStack}
-                        imageUrl={project.imageUrl}
-                    />
-                ))
-            }
-        </div>
+        <>
+            <h1 className="project-heading" style={{textAlign:"center"}}>Projects</h1>
+            <div className="project-grid">
+                {
+                    projects.map((project, index) => (
+                        <ProjectCard
+                            key={index}
+                            title={project.title}
+                            description={project.description}
+                            githublink={project.githubLink}
+                            liveDemo={project.liveDemo}
+                            techStack={project.techStack}
+                            imageUrl={project.imageUrl}
+                        />
+                    ))
+                }
+            </div>
+        </>
     )
 }

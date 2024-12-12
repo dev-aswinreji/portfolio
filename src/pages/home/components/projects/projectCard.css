@@ -1,15 +1,29 @@
+.project-heading {
+    padding-top: 4rem;
+}
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns */
+    gap: 20px;
+    /* Spacing between grid items */
+    padding: 20px;
+    /* Optional padding for the container */
+}
+
 .project-card {
-    border: 1px solid #ccc;
+    background-color: #f8f5f5;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
     padding: 16px;
-    margin: 16px;
-    background-color: #f9f9f9;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
-    transform: scale(1.05);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .project-image {
@@ -33,7 +47,7 @@
 }
 
 .tech-item {
-    background-color: #0078d7;
+    background-color: #000000;
     color: white;
     padding: 4px 8px;
     margin-right: 8px;
@@ -43,11 +57,25 @@
 
 .project-links .link {
     margin-right: 16px;
-    color: #0078d7;
+    color: #353a38;
     text-decoration: none;
     font-weight: bold;
 }
 
 .project-links .link:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 columns on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+        /* 1 column on very small screens */
+    }
 }

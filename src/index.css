@@ -1,1 +1,103 @@
+/* Base styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fff;
+    /* Plain white background */
+    color: #333;
+    /* Dark gray text for a softer look */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
 
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px dashed #333;
+    /* Pencil-like dashed border */
+    background-color: #fff;
+    /* Keep it plain */
+    box-shadow: 5px 5px 0px #aaa;
+    /* Slight offset shadow for depth */
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Patrick Hand', sans-serif;
+    /* Handwritten font */
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 0 #aaa;
+    /* Light shadow for sketch depth */
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px dashed #000;
+    /* Sketchy underline */
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #333;
+    border-bottom: 1px solid #333;
+}
+
+button {
+    background: none;
+    border: 2px dashed #333;
+    color: #333;
+    font-size: 1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #333;
+}
+
+.card {
+    border: 2px dashed #555;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 3px 3px 0px #aaa;
+    /* Subtle shadow */
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* Divider line */
+.divider {
+    border-top: 2px dashed #aaa;
+    margin: 40px 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}

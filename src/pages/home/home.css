@@ -1,17 +1,27 @@
 .home {
-  padding: 12rem 20px; /* Ensure proper spacing */
-  max-width: 1200px; /* Limit the container width */
-  margin: 0 auto; /* Center the home container */
-  display: flex; /* Use flexbox for alignment */
-  align-items: center; /* Vertically center the content */
-  justify-content: space-between; /* Space between text and image */
-  height: auto; /* Allow content to dictate the height */
-  text-align: left; /* Default text alignment for large screens */
+  padding: 12rem 20px;
+  /* Ensure proper spacing */
+  max-width: 1200px;
+  /* Limit the container width */
+  margin: 0 auto;
+  /* Center the home container */
+  display: flex;
+  /* Use flexbox for alignment */
+  align-items: center;
+  /* Vertically center the content */
+  justify-content: space-between;
+  /* Space between text and image */
+  height: auto;
+  /* Allow content to dictate the height */
+  text-align: left;
+  /* Default text alignment for large screens */
 }
 
 .home-heading {
-  flex: 1; /* Take up equal space as the image */
-  padding-right: 20px; /* Add space between text and image */
+  flex: 1;
+  /* Take up equal space as the image */
+  padding-right: 20px;
+  /* Add space between text and image */
 }
 
 .home-heading h1 {
@@ -25,45 +35,62 @@
 }
 
 .home-image {
-  flex: 1; /* Take up equal space as the text */
-  text-align: center; /* Center image for smaller screens */
+  flex: 1;
+  /* Take up equal space as the text */
+  text-align: center;
+  /* Center image for smaller screens */
 }
 
 .home-image img {
-  max-width: 100%; /* Ensure image is responsive */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 10px; /* Optional: Add rounded corners to the image */
+  max-width: 100%;
+  /* Ensure image is responsive */
+  height: auto;
+  /* Maintain aspect ratio */
+  border-radius: 10px;
+  /* Optional: Add rounded corners to the image */
 }
 
 /* Responsiveness */
 @media (max-width: 1024px) {
   .home {
-    flex-direction: column; /* Stack text and image for smaller screens */
+    flex-direction: column;
+    /* Stack text and image for smaller screens */
     text-align: center;
+    padding: 4rem;
   }
 
   .home-heading {
-    padding-right: 0; /* Remove padding when stacked */
+    padding-right: 0;
+    /* Remove padding when stacked */
   }
 
   .home-image {
-    margin-top: 20px; /* Add space between text and image */
+    margin-top: 20px;
+    /* Add space between text and image */
     height: auto;
     width: 16rem;
   }
 
   .home-heading h1 {
-    font-size: 3rem; /* Adjust heading size for tablets */
+    font-size: 3rem;
+    /* Adjust heading size for tablets */
   }
 
   .home-heading p {
-    font-size: 1rem; /* Adjust paragraph size */
+    font-size: 1rem;
+    /* Adjust paragraph size */
   }
 }
 
 @media (max-width: 768px) {
+
+  .home {
+    padding: 6rem;
+  }
+
   .home-heading h1 {
-    font-size: 2.5rem; /* Further reduce for smaller tablets */
+    font-size: 2.5rem;
+    /* Further reduce for smaller tablets */
   }
 
   .home-heading p {
@@ -72,8 +99,13 @@
 }
 
 @media (max-width: 480px) {
+  .home {
+    padding: 2rem;
+  }
+
   .home-heading h1 {
-    font-size: 2rem; /* Small phones */
+    font-size: 2rem;
+    /* Small phones */
   }
 
   .home-heading p {

@@ -35,7 +35,7 @@
 /* project image */
 .project-image {
   width: 100%;
-  height: auto;
+  height: 12rem;
   border-radius: 8px;
   margin-bottom: 15px;
   object-fit: cover;

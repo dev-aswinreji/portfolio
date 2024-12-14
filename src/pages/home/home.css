@@ -1,10 +1,11 @@
 .home {
-    padding: 2rem;
-  }
-  
-  .home-heading {
-    text-align: center;
-    margin-bottom: 2rem;
-    padding-top: 4rem;
-  }
-  
+  padding: 20px;
+  text-align: center;
+}
+
+.home-heading {
+  font-size: 1.8rem;
+  font-weight: normal;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}

@@ -84,16 +84,16 @@ body.dark-mode .nav-icon {
   border-color: #ffffff;
 }
 
-body.dark-mode .project-card {
+body.dark-mode .project-card ,body.dark-mode .project-card-link{
   color: #ffffff;
   background-color: #133337 ;
   border-color: #ffffff;
 }
 
-body.dark-mode .education-item-content,body.dark-mode .project-card-link{
+body.dark-mode .education-item-content,body.dark-mode .about-container{
   color: #ffffff;
   background-color: #133337 ;
-  border-color: #ffffff;
+  border-color: #6b6666;
 }
 body.dark-mode span.tech-item{
   color: #ffffff;

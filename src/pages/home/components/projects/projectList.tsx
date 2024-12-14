@@ -7,38 +7,30 @@ export default function ProjectList() {
             description: 'A e-commerce website',
             githubLink: 'https://github.com/dev-aswinreji/buzzbrewsandchills',
             liveDemo: 'http://localhost:3000',
-            techStack: ['Nodejs', 'Expressjs', 'CSS', 'Embeddedjs'],
+            techStack: ['Nodejs', 'Expressjs', 'Embeddedjs'],
             imageUrl: './project-images/home.png', // Optional
         },
         {
-            title: 'Chat Application',
+            title: 'Netflix Website Clone',
             description: 'Real-time chat app with WebSocket.',
-            githubLink: 'https://github.com/username/chat-app',
+            githubLink: 'https://github.com/dev-aswinreji/netflix-clone',
             liveDemo: 'https://chat-app-demo.com',
-            techStack: ['Node.js', 'Express', 'WebSocket'],
-            imageUrl: './project-images/home.png'
+            techStack: ['Vite', 'TypeScript', 'React'],
+            imageUrl: './project-images/netflix/netflix-home.png'
         }, {
-            title: "Portfolio Website",
+            title: "OLX Website Clone",
             description: "A personal portfolio to showcase my work.",
             githubLink: "https://github.com/username/portfolio",
             liveDemo: "https://portfolio-demo.com",
-            techStack: ["React", "TypeScript", "CSS"],
+            techStack: ["React", "TypeScript", "Firebase"],
             imageUrl: './project-images/home.png', // Optional
         },
         {
-            title: "Chat Application",
+            title: "Youtube Application Clone",
             description: "Real-time chat app with WebSocket.",
-            githubLink: "https://github.com/username/chat-app",
+            githubLink: "https://github.com/dev-aswinreji/youtube-clone",
             liveDemo: "https://chat-app-demo.com",
-            techStack: ["Node.js", "Express", "WebSocket"],
-            imageUrl: './project-images/home.png', // Optional
-        },
-        {
-            title: "E-Commerce Website",
-            description: "A fully functional e-commerce platform.",
-            githubLink: "https://github.com/username/e-commerce",
-            liveDemo: "https://ecommerce-demo.com",
-            techStack: ["Next.js", "GraphQL", "Tailwind"],
+            techStack: ["", "React", "WebSocket"],
             imageUrl: './project-images/home.png', // Optional
         },
         {

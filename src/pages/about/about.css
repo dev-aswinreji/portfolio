@@ -7,23 +7,23 @@
   margin: 20px auto;
   padding: 10px;
   position: relative;
-  border: 1px dashed #000;
+  border: 2px dashed  #d8d8d8;
 }
 
 .about-container::before {
   content: '';
   position: absolute;
-  width: 1px;
-  height: calc(100% - 40px);
-  background-color: #000;
-  top: 40px;
+  width: 4px;
+  height: calc(100% - 50px);
+  background-color: #b8afafb7;
+  top: 51px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-40%);
 }
 
 .about-heading {
   font-size: 2rem;
-  font-weight: normal;
+  font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
   text-decoration: underline;
@@ -47,10 +47,12 @@
 }
 
 .education-item-content {
-  border: 1px dashed #000;
+  border: 2px dashed #e7e7e7;
   padding: 10px;
-  max-width: 45%;
+  max-width: 65%;
   font-size: 0.9rem;
   text-align: left;
   background-color: transparent;
+  z-index: 9999;
+  background: #ffffff;
 }

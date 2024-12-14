@@ -21,14 +21,14 @@
     font-size: 1.2rem;
     text-transform: uppercase;
     text-align: center;
-    padding: 5px 0;
-    border-bottom: 2px dashed #a09e9e;
+    padding: 2rem; 
+
   }
   
   .nav-icon {
     text-decoration: none;
     color: #000000;
-    border: 1px dashed #000;
+    border: 1px dashed #cfcece6b;
     padding: 5px 10px;
   }
   

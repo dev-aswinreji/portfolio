@@ -16,7 +16,7 @@ export default function ProjectList() {
             githubLink: 'https://github.com/username/chat-app',
             liveDemo: 'https://chat-app-demo.com',
             techStack: ['Node.js', 'Express', 'WebSocket'],
-            imageUrl: './project-images/alya.png'
+            imageUrl: './project-images/home.png'
         }, {
             title: "Portfolio Website",
             description: "A personal portfolio to showcase my work.",
@@ -53,7 +53,7 @@ export default function ProjectList() {
     return (
         <>
             <h1 className="project-heading" style={{ textAlign: "center" }}>Projects</h1>
-            <div className="project-grid">
+            <div className="project-container">
                 {
                     projects.map((project, index) => (
                         <ProjectCard

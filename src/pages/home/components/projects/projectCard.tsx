@@ -3,7 +3,7 @@ import "./projectCard.css"
 
 export default function ProjectCard({ title, description, githublink, liveDemo, techStack, imageUrl }: ProjectProps): JSX.Element {
     return (
-        <div className="project-container">
+        // <div className="project-container">
             <div className="project-card">
                 {imageUrl && <img src={imageUrl.toString()} alt={title.toString()} className="project-image" />}
                 <h3 className="project-card-title">{title}</h3>
@@ -20,6 +20,6 @@ export default function ProjectCard({ title, description, githublink, liveDemo, 
                     <a href={liveDemo.toString()} target="_blank" rel="noopener noreferrer" className="project-card-link">Live Demo</a>
                 </div>
             </div>
-        </div>
+        // </div>
     )
 }

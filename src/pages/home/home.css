@@ -5,6 +5,11 @@
   height: 54rem;
 }
 
+h1 .home-heading {
+  font-size: 4rem;
+  font-weight: bolder;
+  
+}
 .home-heading {
   font-size: 1.8rem;
   font-weight: normal;

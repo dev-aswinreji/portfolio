@@ -74,23 +74,23 @@ body {
 
 /* Dark Mode */
 body.dark-mode {
-  background-color: #000000;
+  background: #133337 ;
   color: #ffffff;
 }
 
 /* Navbar Dark Mode */
 body.dark-mode .nav-icon {
   color: #ffffff;
-  border-color: #000000;
+  border-color: #ffffff;
 }
 
 body.dark-mode .project-card {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #121f49;
   border-color: #ffffff;
 }
 
-body.dark-mode .education-item-content{
+body.dark-mode .education-item-content,body.dark-mode .project-card-link{
   color: #ffffff;
   background-color: #000000;
   border-color: #ffffff;

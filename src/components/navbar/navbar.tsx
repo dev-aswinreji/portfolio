@@ -27,12 +27,20 @@ export default function Navbar() {
         }
     };
 
+    const handleScrollToSection = (id: string) => {
+
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
         <nav className="navbar">
             <div className="nav-left">Aswin Reji</div>
             <div className="nav-right">
-                <a href="#about" className="nav-icon">About</a>
-                <a href="#contact" className="nav-icon">Contact</a>
+                <a onClick={() => handleScrollToSection("about")} className="nav-icon">About</a>
+                <a onClick={() => handleScrollToSection("contact")} className="nav-icon">Contact</a>
                 <a
                     href="https://github.com/dev-aswinreji"
                     target="_blank"

@@ -8,7 +8,7 @@ export default function ProjectList() {
             githubLink: 'https://github.com/dev-aswinreji/buzzbrewsandchills',
             liveDemo: 'http://localhost:3000',
             techStack: ['Nodejs', 'Expressjs', 'Embeddedjs'],
-            imageUrl: ['/buzzbrewsandchills/home.png'], // Optional
+            imageUrl: ['/buzzbrewsandchills/buzz-home.png', '/buzzbrewsandchills/buzz-cart.png', '/buzzbrewsandchills/buzz-name-change.png', '/buzzbrewsandchills/buzz-profile.png', '/buzzbrewsandchills/buzz-orderlist.png'], // Optional
         },
         {
             title: 'Netflix Website Clone',
@@ -16,14 +16,14 @@ export default function ProjectList() {
             githubLink: 'https://github.com/dev-aswinreji/netflix-clone',
             liveDemo: 'https://chat-app-demo.com',
             techStack: ['Vite', 'TypeScript', 'React'],
-            imageUrl: ['/netflix/netflix-home.png','/netflix/netflix-signup.png']
+            imageUrl: ['/netflix/netflix-home.png', '/netflix/netflix-signup.png', '/netflix/netflix-movie-list.png', '/netflix/netflix-signin.png']
         }, {
             title: "OLX Website Clone",
             description: "A personal portfolio to showcase my work.",
             githubLink: "https://github.com/username/portfolio",
             liveDemo: "https://portfolio-demo.com",
             techStack: ["React", "TypeScript", "Firebase"],
-            imageUrl:[]
+            imageUrl: ['/olx/olx-home.png', '/olx/olx-signin.png', '/olx/olx-sell.png', '/olx/olx-signup.png']
         },
         {
             title: "Youtube Application Clone",
@@ -31,7 +31,7 @@ export default function ProjectList() {
             githubLink: "https://github.com/dev-aswinreji/youtube-clone",
             liveDemo: "https://chat-app-demo.com",
             techStack: ["", "React", "WebSocket"],
-            imageUrl:[]
+            imageUrl: []
         },
         {
             title: "Weather App",
@@ -39,7 +39,7 @@ export default function ProjectList() {
             githubLink: "https://github.com/username/weather-app",
             liveDemo: "https://weather-demo.com",
             techStack: ["React", "OpenWeatherAPI", "Bootstrap"],
-            imageUrl:[]
+            imageUrl: []
         },
     ];
     return (

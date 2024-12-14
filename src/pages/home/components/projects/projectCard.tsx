@@ -9,19 +9,18 @@ export default function ProjectCard({ title, description, githublink, liveDemo, 
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imageUrl.length);
-        }, 4000); 
-
+        }, 4000);
         return () => clearInterval(interval);
     }, [imageUrl.length]);
 
     return (
         <div className="project-card">
-            <img
-                src={"./project-images"+imageUrl[currentImageIndex]?.toString()}
-
+            {/* <div className="project-image-container"> */}
+            <img src={"./project-images" + imageUrl[currentImageIndex]?.toString()}
                 alt={`${title} screenshot`}
                 className="project-image"
             />
+            {/* </div> */}
             <h3 className="project-card-title">{title}</h3>
             <p className="project-card-description">{description}</p>
             <div className="tech-stack">

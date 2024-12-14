@@ -33,6 +33,15 @@
     padding: 8px 8px;
     padding-top: 10px;
   }
+  .dark-mode-icon {
+    border-radius: 1rem;
+    text-decoration: none;
+    width: 3rem;
+    color: #000000;
+    border: 1px dashed #cfcece;
+    padding: 14px 10px;
+    padding-top: 17px;
+  }
   
   .nav-icon:hover {
     background-color: #f9f9f9;

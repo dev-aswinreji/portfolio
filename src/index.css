@@ -86,18 +86,23 @@ body.dark-mode .nav-icon {
 
 body.dark-mode .project-card {
   color: #ffffff;
-  background-color: #121f49;
+  background-color: #133337 ;
   border-color: #ffffff;
 }
 
 body.dark-mode .education-item-content,body.dark-mode .project-card-link{
   color: #ffffff;
-  background-color: #000000;
+  background-color: #133337 ;
   border-color: #ffffff;
 }
+body.dark-mode span.tech-item{
+  color: #ffffff;
+  background-color: #03030393;
+}
 
-body.dark-mode .nav-icon:hover {
-  background-color: #000000;
+body.dark-mode .nav-icon:hover ,
+body.dark-mode .dark-mode-icon:hover {
+  background-color: #27666d ;
 }
 
 body.dark-mode h1,

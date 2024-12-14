@@ -1,19 +1,80 @@
 .home {
-  padding: 120px;
-  padding-top: 12rem;
-  max-width: 100%;
-  height: 54rem;
+  padding: 12rem 20px; /* Ensure proper spacing */
+  max-width: 1200px; /* Limit the container width */
+  margin: 0 auto; /* Center the home container */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Vertically center the content */
+  justify-content: space-between; /* Space between text and image */
+  height: auto; /* Allow content to dictate the height */
+  text-align: left; /* Default text alignment for large screens */
 }
 
-h1 .home-heading {
+.home-heading {
+  flex: 1; /* Take up equal space as the image */
+  padding-right: 20px; /* Add space between text and image */
+}
+
+.home-heading h1 {
   font-size: 4rem;
   font-weight: bolder;
-  
 }
-.home-heading {
-  font-size: 1.8rem;
-  font-weight: normal;
-  text-decoration: underline;
-  margin-bottom: 20px;
-  width: 50%;
+
+.home-heading p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.home-image {
+  flex: 1; /* Take up equal space as the text */
+  text-align: center; /* Center image for smaller screens */
+}
+
+.home-image img {
+  max-width: 100%; /* Ensure image is responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: Add rounded corners to the image */
+}
+
+/* Responsiveness */
+@media (max-width: 1024px) {
+  .home {
+    flex-direction: column; /* Stack text and image for smaller screens */
+    text-align: center;
+  }
+
+  .home-heading {
+    padding-right: 0; /* Remove padding when stacked */
+  }
+
+  .home-image {
+    margin-top: 20px; /* Add space between text and image */
+  }
+
+  .home-heading h1 {
+    font-size: 3rem; /* Adjust heading size for tablets */
+  }
+
+  .home-heading p {
+    font-size: 1rem; /* Adjust paragraph size */
+  }
+}
+
+@media (max-width: 768px) {
+  .home-heading h1 {
+    font-size: 2.5rem; /* Further reduce for smaller tablets */
+  }
+
+  .home-heading p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-heading h1 {
+    font-size: 2rem; /* Small phones */
+  }
+
+  .home-heading p {
+    font-size: 0.8rem;
+  }
 }

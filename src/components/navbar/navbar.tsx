@@ -49,7 +49,7 @@ export default function Navbar() {
                 >
                     <FaLinkedin />
                 </a>
-                <button className="nav-icon" onClick={toggleDarkMode} style={darkMode ? { color: "white" } : { color: "black" }}>
+                <button className="dark-mode-icon" onClick={toggleDarkMode} style={darkMode ? { color: "white" } : { color: "black" }}>
                     {darkMode ? <MdLightMode /> : <MdDarkMode />}
                 </button>
             </div>

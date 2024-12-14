@@ -48,6 +48,8 @@
 
   .home-image {
     margin-top: 20px; /* Add space between text and image */
+    height: auto;
+    width: 16rem;
   }
 
   .home-heading h1 {

@@ -9,7 +9,7 @@ export default function HomeHeading() {
                 <p>This is an overview of my skills and projects</p>
             </div>
             <div className="home-image">
-                <img src="./project-images/home.png" alt="Profile or illustration" />
+                <img src="./project-images/saitama.png" alt="Profile or illustration" />
             </div>
         </div>
     )

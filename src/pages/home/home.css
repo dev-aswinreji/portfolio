@@ -101,6 +101,7 @@
 @media (max-width: 480px) {
   .home {
     padding: 2rem;
+    padding-bottom: 3rem;
   }
 
   .home-heading h1 {

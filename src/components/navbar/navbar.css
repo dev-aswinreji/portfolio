@@ -26,10 +26,12 @@
   }
   
   .nav-icon {
+    border-radius: 1rem;
     text-decoration: none;
     color: #000000;
-    border: 1px dashed #cfcece6b;
-    padding: 5px 10px;
+    border: 1px dashed #cfcece;
+    padding: 8px 8px;
+    padding-top: 10px;
   }
   
   .nav-icon:hover {

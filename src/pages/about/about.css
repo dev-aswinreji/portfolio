@@ -8,6 +8,7 @@
   padding: 10px;
   position: relative;
   border: 2px dashed  #d8d8d8;
+  border-radius: 1rem;
 }
 
 .about-container::before {
@@ -49,6 +50,7 @@
 .education-item-content {
   border: 2px dashed #e7e7e7;
   padding: 10px;
+  border-radius: 2rem;
   max-width: 65%;
   font-size: 0.9rem;
   text-align: left;

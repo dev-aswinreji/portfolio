@@ -67,14 +67,14 @@ li::before {
 /* index.css */
 
 /* Default Light Mode */
-body {
+/* body {
   background-color: #f9f9f9;
   color: #000000;
-}
+} */
 
 /* Dark Mode */
 body.dark-mode {
-  background: #133337 ;
+  background: #010f0fdc ;
   color: #ffffff;
 }
 
@@ -86,13 +86,18 @@ body.dark-mode .nav-icon {
 
 body.dark-mode .project-card ,body.dark-mode .project-card-link{
   color: #ffffff;
-  background-color: #133337 ;
+  background-color: #010f0f00 ;
   border-color: #ffffff;
 }
 
-body.dark-mode .education-item-content,body.dark-mode .about-container{
+body.dark-mode .education-item-content{
   color: #ffffff;
-  background-color: #133337 ;
+  background: #010f0fde ;
+  border-color: #6b6666;
+}
+body.dark-mode .about-container{
+  color: #ffffff;
+  background: #010f0f00 ;
   border-color: #6b6666;
 }
 body.dark-mode span.tech-item{
@@ -102,7 +107,7 @@ body.dark-mode span.tech-item{
 
 body.dark-mode .nav-icon:hover ,
 body.dark-mode .dark-mode-icon:hover {
-  background-color: #27666d ;
+  background-color: #133337 ;
 }
 
 body.dark-mode h1,

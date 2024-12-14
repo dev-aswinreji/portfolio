@@ -4,5 +4,5 @@ export interface ProjectProps{
     githublink: String;
     liveDemo: String;
     techStack: String[];
-    imageUrl?: String;
+    imageUrl: String[];
 }

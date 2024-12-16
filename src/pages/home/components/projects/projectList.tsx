@@ -30,13 +30,13 @@ export default function ProjectList() {
             description: "Real-time chat app with WebSocket.",
             githubLink: "https://github.com/dev-aswinreji/youtube-clone",
             liveDemo: "https://chat-app-demo.com",
-            techStack: ["", "React", "WebSocket"],
+            techStack: ["Vite", "React", "TypeScript"],
             imageUrl: []
         },
         {
-            title: "Weather App",
+            title: "Todo App",
             description: "A weather app using public APIs.",
-            githubLink: "https://github.com/username/weather-app",
+            githubLink: "https://github.com/dev-aswinreji/weather-app",
             liveDemo: "https://weather-demo.com",
             techStack: ["React", "OpenWeatherAPI", "Bootstrap"],
             imageUrl: []

@@ -101,7 +101,7 @@ body.dark-mode .about-container{
   background: #010f0f00 ;
   border-color: #6b6666;
 }
-body.dark-mode span.tech-item{
+body.dark-mode a.tech-item{
   color: #ffffff;
   background-color: #03030393;
 }

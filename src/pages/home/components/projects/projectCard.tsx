@@ -25,9 +25,22 @@ export default function ProjectCard({ title, description, githublink, liveDemo, 
             <p className="project-card-description">{description}</p>
             <div className="tech-stack">
                 {techStack.map((tech, index: number) => {
-                    return <span key={index} className="tech-item">
+                    if (tech === 'Expressjs') {
+                        return <a key={index} href={`https://${tech}.com`} className="tech-item" target="_blank">
+                            {tech}
+                        </a>
+                    } else if (tech === 'Embeddedjs') {
+                        return <a key={index} href={`https://ejs.co`} className="tech-item" target="_blank">
+                            {tech}
+                        </a>
+                    }else if (tech === 'Firebase'){
+                        return <a key={index} href={`https://${tech}.google.com`} className="tech-item" target="_blank">
+                            {tech}
+                        </a>
+                    }
+                    return <a key={index} href={`https://${tech}.dev`} target="_blank" className="tech-item">
                         {tech}
-                    </span>
+                    </a>
                 })}
             </div>
             <div className="project-links">

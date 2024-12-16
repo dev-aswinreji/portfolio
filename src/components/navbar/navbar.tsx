@@ -36,7 +36,7 @@ export default function Navbar() {
     };
 
     return (
-        <nav className="navbar">
+        <nav className="navbar" style={{position:"sticky"}}>
             <div className="nav-left">Aswin Reji</div>
             <div className="nav-right">
                 <a onClick={() => handleScrollToSection("about")} className="nav-icon">About</a>

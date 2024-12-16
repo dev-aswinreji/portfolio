@@ -31,7 +31,7 @@ export default function ProjectList() {
             githubLink: "https://github.com/dev-aswinreji/youtube-clone",
             liveDemo: "https://chat-app-demo.com",
             techStack: ["Vite", "React", "TypeScript"],
-            imageUrl: []
+            imageUrl: ['/saitama.png']
         },
         {
             title: "Todo App",
@@ -39,7 +39,7 @@ export default function ProjectList() {
             githubLink: "https://github.com/dev-aswinreji/weather-app",
             liveDemo: "https://weather-demo.com",
             techStack: ["React", "OpenWeatherAPI", "Bootstrap"],
-            imageUrl: []
+            imageUrl: ["/saitama.png","/saitama.png"]
         },
     ];
     return (

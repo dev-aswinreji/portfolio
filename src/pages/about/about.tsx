@@ -9,13 +9,13 @@ export default function About() {
                 <div className="education-item">
                     <div className="education-item-content">
                         <h3>Web Development</h3>
-                        <p>Brototype, Banglore</p>
+                        <p>Brototype, Bangalore</p>
                         <p>India</p>
                     </div>
                 </div>
                 <div className="education-item">
                     <div className="education-item-content">
-                        <h3>Bacherlor of Science in Physics</h3>
+                        <h3>Bachelor of Science in Physics</h3>
                         <p>Kuriakose Gregorious College, Kerala</p>
                         <p>India</p>
                     </div>

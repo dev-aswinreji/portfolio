@@ -9,6 +9,10 @@ export default function Contact() {
                 <MdMail />
             </span>
             <a target="_blank" style={{ textDecoration: "none" }} href="mailto:aswinreji.004@gmail.com">aswinreji.004@gmail.com</a>
+            <span>
+                Instagram
+            </span>
+            <a href=""></a>
         </div>
     )
 }

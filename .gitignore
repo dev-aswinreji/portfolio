@@ -24,7 +24,7 @@ dist-ssr
 *.sw?
 
 #environment variables
-env
+.env
 
 # Things planned to implement in portfolio
 portfolio-guide.txt

@@ -75,7 +75,7 @@ li::before {
 
 /* Dark Mode */
 body.dark-mode {
-  background: #010f0fdc ;
+  background: #010f0fdc;
   color: #ffffff;
 }
 
@@ -85,30 +85,47 @@ body.dark-mode .nav-icon {
   border-color: #ffffff;
 }
 
-body.dark-mode .project-card ,body.dark-mode .project-card-link{
+body.dark-mode .project-card,
+body.dark-mode .project-card-link {
   color: #ffffff;
-  background-color: #1a2e201a ;
+  background-color: #1a2e201a;
   border-color: #ffffff;
 }
 
-body.dark-mode .education-item-content{
+body.dark-mode .education-item-content {
   color: #ffffff;
-  background: #010f0fde ;
+  background: #010f0fde;
   border-color: #6b6666;
 }
-body.dark-mode .about-container{
+
+body.dark-mode .about-container {
   color: #ffffff;
-  background: #010f0f00 ;
+  background: #010f0f00;
   border-color: #6b6666;
 }
-body.dark-mode a.tech-item{
+
+body.dark-mode a.tech-item {
   color: #ffffff;
   background-color: #03030393;
 }
 
-body.dark-mode .nav-icon:hover ,
+body.dark-mode .contact-section {
+  color: #ffffff;
+  background: #010f0f00;
+  border-color: #6b6666;
+}
+
+body.dark-mode .contact-icon {
+  color: #ffffff;
+}
+
+body.dark-mode .contact-item:hover {
+  color: #cecaca;
+  background-color: #000000;
+}
+body.dark-mode .nav-icon:hover,
 body.dark-mode .dark-mode-icon:hover {
-  background-color: #133337 ;
+  background-color: #133337;
 }
 
 body.dark-mode h1,

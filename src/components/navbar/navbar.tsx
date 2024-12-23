@@ -5,6 +5,9 @@ import { MdDarkMode, MdLightMode } from "react-icons/md";
 
 export default function Navbar() {
     const [darkMode, setDarkMode] = useState(false);
+    const linkedn = import.meta.env.VITE_LINKEDN
+    const github = import.meta.env.VITE_GITHUB
+
 
     // Load the initial theme from localStorage
     useEffect(() => {
@@ -36,13 +39,13 @@ export default function Navbar() {
     };
 
     return (
-        <nav className="navbar" style={{position:"sticky"}}>
+        <nav className="navbar" style={{ position: "sticky" }}>
             <div className="nav-left">Aswin Reji</div>
             <div className="nav-right">
                 <a onClick={() => handleScrollToSection("about")} className="nav-icon">About</a>
                 <a onClick={() => handleScrollToSection("contact")} className="nav-icon">Contact</a>
                 <a
-                    href="https://github.com/dev-aswinreji"
+                    href={`${github}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="nav-icon"
@@ -50,7 +53,7 @@ export default function Navbar() {
                     <FaGithub />
                 </a>
                 <a
-                    href="https://linkedin.com/in/dev-aswinreji"
+                    href={`${linkedn}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="nav-icon"

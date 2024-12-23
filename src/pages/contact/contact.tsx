@@ -2,6 +2,8 @@ import { MdMail, MdPhone, MdLocationOn } from "react-icons/md";
 import "./contact.css";
 
 export default function Contact() {
+    const phonenumber = import.meta.env.VITE_PHONENUMBER
+    const email = import.meta.env.VITE_EMAIL
     return (
         <div id="contact" className="contact-section">
             <h1 className="contact-heading">Contact Me</h1>
@@ -9,13 +11,14 @@ export default function Contact() {
             <div className="contact-info">
                 <div className="contact-item">
                     <MdMail className="contact-icon" />
-                    <a href="" className="contact-link">
+                    <a href={`mailto:${email}`} className="contact-link">
+                        {email}
                     </a>
                 </div>
                 <div className="contact-item">
                     <MdPhone className="contact-icon" />
-                    <a href="tel:" className="contact-link">
-                        {import.meta.env.VITE_PHONENUMBER}
+                    <a href={`tel:${phonenumber}`} className="contact-link">
+                        {phonenumber}
                     </a>
                 </div>
                 {/* <div className="contact-item">

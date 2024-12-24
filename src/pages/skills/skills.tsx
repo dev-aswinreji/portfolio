@@ -1,6 +1,6 @@
 import "./skills.css";
 import { FaReact, FaNodeJs, FaAws, FaGitAlt, FaHtml5, FaCss3, FaJs } from "react-icons/fa";
-import { SiMongodb, SiPostgresql, SiFirebase, SiTypescript, SiBootstrap, SiEjs, SiHttpie, SiPostman } from "react-icons/si";
+import { SiMongodb, SiPostgresql, SiFirebase, SiTypescript, SiBootstrap, SiEjs, SiHttpie, SiPostman, SiCloudinary } from "react-icons/si";
 
 export default function Skills() {
     const skills = [
@@ -14,7 +14,7 @@ export default function Skills() {
         },
         {
             category: "Database and Storage",
-            icons: [<SiMongodb />, <SiPostgresql />, <SiFirebase />]
+            icons: [<SiMongodb />, <SiPostgresql />, <SiFirebase />,<SiCloudinary/>]
         },
         {
             category: "Tools & Deployment",
@@ -30,7 +30,7 @@ export default function Skills() {
                     <h2 className="skill-category-heading">{skill.category}</h2>
                     <div className="skill-icons">
                         {skill.icons.map((icon, i) => (
-                            <div key={i} className="icon">{icon}</div>
+                            <div key={i} className="skill-icon">{icon}</div>
                         ))}
                     </div>
                 </div>

@@ -123,6 +123,15 @@ body.dark-mode .contact-item:hover {
   background-color: #000000;
 }
 
+body.dark-mode .skill-icon {
+  color: #fff;
+  border: 2px solid #a39c9c;
+  background-color: #010f0f00;
+}
+
+body.dark-mode .skills-container {
+  background-color: #010f0f00;
+}
 body.dark-mode .nav-icon:hover,
 body.dark-mode .dark-mode-icon:hover {
   background-color: #133337;

@@ -1,6 +1,7 @@
 import "./skills.css";
-import { FaReact, FaNodeJs, FaAws, FaGitAlt, FaHtml5, FaCss3, FaJs } from "react-icons/fa";
-import { SiMongodb, SiPostgresql, SiFirebase, SiTypescript, SiBootstrap, SiEjs, SiHttpie, SiPostman, SiCloudinary } from "react-icons/si";
+import { FaReact, FaNodeJs, FaAws, FaGitAlt, FaHtml5, FaCss3, FaJs, FaYarn, FaGithub } from "react-icons/fa";
+import { SiMongodb, SiPostgresql, SiFirebase, SiTypescript, SiBootstrap, SiEjs, SiHttpie, SiPostman, SiCloudinary, SiNginx, SiDeno, SiExpress } from "react-icons/si";
+import { FiFigma } from "react-icons/fi";
 
 export default function Skills() {
     const skills = [
@@ -10,15 +11,15 @@ export default function Skills() {
         },
         {
             category: "Backend Development",
-            icons: [<FaNodeJs />, <SiEjs />]
+            icons: [<FaNodeJs />, <SiExpress />, <SiNginx />]
         },
         {
             category: "Database and Storage",
-            icons: [<SiMongodb />, <SiPostgresql />, <SiFirebase />,<SiCloudinary/>]
+            icons: [<SiMongodb />, <SiPostgresql />, <SiFirebase />, <SiCloudinary />]
         },
         {
             category: "Tools & Deployment",
-            icons: [<FaGitAlt />, <FaAws />, <SiHttpie />,<SiPostman/>]
+            icons: [<FaGitAlt />, <FaAws />, <SiHttpie />, <SiPostman />, <SiDeno />, <FaYarn />, <FaGithub />, <FiFigma />]
         }
     ];
 

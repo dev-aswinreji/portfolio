@@ -1,4 +1,4 @@
-import { MdMail, MdPhone, MdLocationOn } from "react-icons/md";
+import { MdMail, MdPhone } from "react-icons/md";
 import "./contact.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 

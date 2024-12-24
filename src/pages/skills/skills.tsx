@@ -1,6 +1,6 @@
 import "./skills.css";
 import { FaReact, FaNodeJs, FaAws, FaGitAlt, FaHtml5, FaCss3, FaJs } from "react-icons/fa";
-import { SiMongodb, SiPostgresql, SiFirebase, SiTypescript, SiBootstrap, SiEjs } from "react-icons/si";
+import { SiMongodb, SiPostgresql, SiFirebase, SiTypescript, SiBootstrap, SiEjs, SiHttpie, SiPostman } from "react-icons/si";
 
 export default function Skills() {
     const skills = [
@@ -18,7 +18,7 @@ export default function Skills() {
         },
         {
             category: "Tools & Deployment",
-            icons: [<FaGitAlt />, <FaAws />]
+            icons: [<FaGitAlt />, <FaAws />, <SiHttpie />,<SiPostman/>]
         }
     ];
 

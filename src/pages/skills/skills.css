@@ -102,7 +102,7 @@
     .skill-icons {
         grid-template-columns: repeat(3, 1fr); /* 2 icons per row */
         gap: 1.5 rem;
-        max-width: 45%;
+        max-width: 50%;
     }
 
     .skill-icon {

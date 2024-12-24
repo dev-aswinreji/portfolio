@@ -1,0 +1,61 @@
+/* Overall container */
+.skills-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+/* Skills section heading */
+.skills-heading {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+/* Each skill category */
+.skill-category {
+    margin-bottom: 2rem;
+}
+
+/* Skill category heading */
+.skill-category-heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+/* Skill icons container */
+.skill-icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Individual icon box */
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    font-size: 2rem;
+    color: #26282b;
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+/* Hover effects for icons */
+.icon:hover {
+    color: #262729;
+    transform: scale(1.1);
+    border-color: #222425;
+}

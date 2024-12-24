@@ -12,7 +12,6 @@ body {
   font-family: 'Arial', sans-serif;
   line-height: 1.5;
   background-color: #f9f9f9;
-  /* Optional: subtle background color for better contrast */
 }
 
 main {
@@ -123,6 +122,7 @@ body.dark-mode .contact-item:hover {
   color: #cecaca;
   background-color: #000000;
 }
+
 body.dark-mode .nav-icon:hover,
 body.dark-mode .dark-mode-icon:hover {
   background-color: #133337;

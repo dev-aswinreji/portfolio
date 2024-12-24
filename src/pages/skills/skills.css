@@ -1,7 +1,7 @@
 /* Overall container */
 .skills-container {
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 5%;
     background-color: #f9f9f9;
 }
 
@@ -17,14 +17,15 @@
 
 /* Each skill category */
 .skill-category {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    /* Increased margin to separate categories */
 }
 
 /* Skill category heading */
 .skill-category-heading {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #007bff;
+    color: #2e3033;
     margin-bottom: 1rem;
     text-transform: uppercase;
 }
@@ -34,8 +35,10 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
-    justify-content: center;
-    margin: auto;
+    justify-items: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 80%;
 }
 
 /* Individual icon box */
@@ -58,4 +61,62 @@
     color: #262729;
     transform: scale(1.1);
     border-color: #222425;
+}
+
+/* Responsive Design */
+
+/* Tablets and smaller screens */
+@media (max-width: 768px) {
+    .skills-container {
+        padding: 2rem 3%;
+    }
+
+    /* Adjust icons container */
+    .skill-icons {
+        grid-template-columns: repeat(3, 1fr); /* 3 icons per row */
+        gap: 1.5rem;
+        max-width: 90%;
+    }
+
+    .icon {
+        width: 60px; /* Smaller icons */
+        height: 60px;
+        font-size: 1.8rem; /* Smaller icon size */
+    }
+
+    .skills-heading {
+        font-size: 2rem; /* Smaller heading */
+    }
+
+    .skill-category-heading {
+        font-size: 1.6rem; /* Smaller category heading */
+    }
+}
+
+/* Small mobile screens */
+@media (max-width: 480px) {
+    .skills-container {
+        padding: 1.5rem 2%;
+    }
+
+    /* Adjust icons container */
+    .skill-icons {
+        grid-template-columns: repeat(3, 1fr); /* 2 icons per row */
+        gap: 1rem;
+        max-width: 95%;
+    }
+
+    .icon {
+        width: 50px; /* Even smaller icons */
+        height: 50px;
+        font-size: 1.5rem; /* Smaller icon size */
+    }
+
+    .skills-heading {
+        font-size: 1.8rem; /* Smaller heading */
+    }
+
+    .skill-category-heading {
+        font-size: 1.4rem; /* Smaller category heading */
+    }
 }

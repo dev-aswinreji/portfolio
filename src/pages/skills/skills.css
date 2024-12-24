@@ -38,7 +38,7 @@
     justify-items: center;
     width: 100%;
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 60%;
 }
 
 /* Individual icon box */
@@ -75,7 +75,7 @@
     .skill-icons {
         grid-template-columns: repeat(3, 1fr); /* 3 icons per row */
         gap: 1.5rem;
-        max-width: 90%;
+        max-width: 50%;
     }
 
     .icon {
@@ -102,8 +102,8 @@
     /* Adjust icons container */
     .skill-icons {
         grid-template-columns: repeat(3, 1fr); /* 2 icons per row */
-        gap: 1rem;
-        max-width: 95%;
+        gap: 1.5 rem;
+        max-width: 45%;
     }
 
     .icon {

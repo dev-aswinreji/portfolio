@@ -1,6 +1,5 @@
 /* Footer container */
 .footer {
-    background-color: #ffffff;
     color: #000000;
     padding: 1.5rem 2rem;
     text-align: center;
@@ -36,7 +35,7 @@
 }
 
 .footer-icon-link:hover {
-    color: #030303; /* Bright blue hover color */
+    color: #030303; 
     transform: scale(1.1);
 }
 

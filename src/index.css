@@ -139,6 +139,9 @@ body.dark-mode .dark-mode-icon:hover {
   background-color: #133337;
 }
 
+body.dark-mode .footer-icon-link:hover {
+  color: #ffffff;
+}
 body.dark-mode h1,
 body.dark-mode h2,
 body.dark-mode h3,

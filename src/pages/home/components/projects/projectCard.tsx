@@ -33,8 +33,12 @@ export default function ProjectCard({ title, description, githublink, liveDemo, 
                         return <a key={index} href={`https://ejs.co`} className="tech-item" target="_blank">
                             {tech}
                         </a>
-                    }else if (tech === 'Firebase'){
+                    } else if (tech === 'Firebase') {
                         return <a key={index} href={`https://${tech}.google.com`} className="tech-item" target="_blank">
+                            {tech}
+                        </a>
+                    } else if (tech === "Bootstrap") {
+                        return <a key={index} href={`https://getbootstrap.com`} target="_blank" className="tech-item">
                             {tech}
                         </a>
                     }

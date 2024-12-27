@@ -1,0 +1,63 @@
+/* Footer container */
+.footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 1.5rem 2rem;
+    text-align: center;
+}
+
+/* Footer content wrapper */
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Tagline text */
+.footer-tagline {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* Icons container */
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* Icon links */
+.footer-icon-link {
+    font-size: 1.8rem;
+    color: #000000;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-icon-link:hover {
+    color: #030303; /* Bright blue hover color */
+    transform: scale(1.1);
+}
+
+/* Copyright text */
+.footer-copyright {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    color: #050404;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    .footer-tagline {
+        font-size: 1rem;
+    }
+
+    .footer-icon-link {
+        font-size: 1.5rem;
+    }
+
+    .footer-copyright {
+        font-size: 0.8rem;
+    }
+}

@@ -5,8 +5,8 @@ import { MdDarkMode, MdLightMode } from "react-icons/md";
 
 export default function Navbar() {
     const [darkMode, setDarkMode] = useState(false);
-    const linkedn = import.meta.env.VITE_LINKEDN
-    const github = import.meta.env.VITE_GITHUB
+    const linkedn = import.meta.env.VITE_LINKEDN_USERNAME
+    const github_username = import.meta.env.VITE_GITHUB_USERNAME
 
 
     // Load the initial theme from localStorage
@@ -45,7 +45,7 @@ export default function Navbar() {
                 <a onClick={() => handleScrollToSection("about")} className="nav-icon">About</a>
                 <a onClick={() => handleScrollToSection("contact")} className="nav-icon">Contact</a>
                 <a
-                    href={`${github}`}
+                    href={`https://github.com/${github_username}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="nav-icon"
@@ -53,7 +53,7 @@ export default function Navbar() {
                     <FaGithub />
                 </a>
                 <a
-                    href={`${linkedn}`}
+                    href={`https://linkedin.com/in/${linkedn}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="nav-icon"
@@ -67,3 +67,4 @@ export default function Navbar() {
         </nav>
     );
 }
+

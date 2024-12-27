@@ -1,37 +1,39 @@
 import ProjectCard from "./projectCard";
 
 export default function ProjectList() {
+    const github_username = import.meta.env.VITE_GITHUB_USERNAME
+    const github_link = `https://github.com/${github_username}`
     const projects = [
         {
             title: 'E-Commerce Website',
             description: 'A e-commerce website',
-            githubLink: 'https://github.com/dev-aswinreji/buzzbrewsandchills',
+            github_repo: 'buzzbrewsandchills',
             liveDemo: 'http://localhost:3000',
             techStack: ['Nodejs', 'Expressjs', 'Embeddedjs'],
             imageUrl: ['/buzzbrewsandchills/buzz-home.png']
-                // , '/buzzbrewsandchills/buzz-cart.png', '/buzzbrewsandchills/buzz-name-change.png', '/buzzbrewsandchills/buzz-profile.png', '/buzzbrewsandchills/buzz-orderlist.png'], // Optional
+            // , '/buzzbrewsandchills/buzz-cart.png', '/buzzbrewsandchills/buzz-name-change.png', '/buzzbrewsandchills/buzz-profile.png', '/buzzbrewsandchills/buzz-orderlist.png'], // Optional
         },
         {
             title: 'Netflix Website Clone',
             description: 'Real-time chat app with WebSocket.',
-            githubLink: 'https://github.com/dev-aswinreji/netflix-clone',
-            liveDemo: 'https://chat-app-demo.com',
+            github_repo: 'netflix-clone',
+            liveDemo: 'https://github.io/dev-aswinreji/netflix-clone',
             techStack: ['Vite', 'TypeScript', 'React'],
             imageUrl: ['/netflix/netflix-home.png',]
-                //  '/netflix/netflix-signup.png', '/netflix/netflix-movie-list.png', '/netflix/netflix-signin.png']
+            //  '/netflix/netflix-signup.png', '/netflix/netflix-movie-list.png', '/netflix/netflix-signin.png']
         }, {
             title: "OLX Website Clone",
             description: "A personal portfolio to showcase my work.",
-            githubLink: "https://github.com/username/portfolio",
+            github_repo: "olx-clone",
             liveDemo: "https://portfolio-demo.com",
             techStack: ["React", "TypeScript", "Firebase"],
             imageUrl: ['/olx/olx-home.png',]
-                //  '/olx/olx-signin.png', '/olx/olx-sell.png', '/olx/olx-signup.png']
+            //  '/olx/olx-signin.png', '/olx/olx-sell.png', '/olx/olx-signup.png']
         },
         {
             title: "Youtube Application Clone",
             description: "Real-time chat app with WebSocket.",
-            githubLink: "https://github.com/dev-aswinreji/youtube-clone",
+            github_repo: "youtube-clone",
             liveDemo: "https://chat-app-demo.com",
             techStack: ["Vite", "React", "TypeScript"],
             imageUrl: ['/saitama.png']
@@ -39,10 +41,10 @@ export default function ProjectList() {
         {
             title: "Todo App",
             description: "A weather app using public APIs.",
-            githubLink: "https://github.com/dev-aswinreji/weather-app",
+            github_repo: "todo-app",
             liveDemo: "https://weather-demo.com",
             techStack: ["React", "OpenWeatherAPI", "Bootstrap"],
-            imageUrl: ["/saitama.png","/saitama.png"]
+            imageUrl: ["/saitama.png", "/saitama.png"]
         },
     ];
     return (
@@ -55,7 +57,7 @@ export default function ProjectList() {
                             key={index}
                             title={project.title}
                             description={project.description}
-                            githublink={project.githubLink}
+                            githublink={`${github_link}/${project.github_repo}`}
                             liveDemo={project.liveDemo}
                             techStack={project.techStack}
                             imageUrl={project.imageUrl}

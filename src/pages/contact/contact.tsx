@@ -5,8 +5,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 export default function Contact() {
     const phonenumber = import.meta.env.VITE_PHONENUMBER
     const email = import.meta.env.VITE_EMAIL
-    const github = import.meta.env.VITE_GITHUB
-    const linkedn = import.meta.env.VITE_LINKEDN
+    const github_username = import.meta.env.VITE_GITHUB_USERNAME
+    const linkedn_username = import.meta.env.VITE_LINKEDN_USERNAME
     return (
         <div id="contact" className="contact-section">
             <h1 className="contact-heading">Contact Me</h1>
@@ -26,11 +26,11 @@ export default function Contact() {
                 </div>
                 <div className="contact-item">
                     <FaLinkedin className="contact-icon" />
-                    <a href={`${linkedn}`} target="_blank" className="contact-link">
+                    <a href={`https://linkedin.com/in/${linkedn_username}`} target="_blank" className="contact-link">
                         Linkedn
                     </a>
                     <FaGithub className="contact-icon" />
-                    <a href={`${github}`} target="_blank" className="contact-link">
+                    <a href={`https://github.com/${github_username}`} target="_blank" className="contact-link">
                         GitHub
                     </a>
                 </div>

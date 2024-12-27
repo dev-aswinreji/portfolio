@@ -74,7 +74,9 @@ li::before {
 
 /* Dark Mode */
 body.dark-mode {
-  background: #010f0fdc;
+  /* background: #010f0fdc; */
+  background: rgb(0, 15, 15);
+  background: linear-gradient(0deg, rgb(4, 36, 36) 0%, rgb(40, 44, 32) 100%); ;
   color: #ffffff;
 }
 

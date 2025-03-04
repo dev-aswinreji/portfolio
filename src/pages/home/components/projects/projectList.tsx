@@ -8,9 +8,9 @@ export default function ProjectList() {
             title: "E-Commerce Website",
             description: "Online store with Node.js and EJS.",
             github_repo: "buzzbrewsandchills",
-            liveDemo: "https://buzzbrewsandchills.vercel.app",
+            liveDemo: "https://buzzbrewsandchills.onrender.com",
             techStack: ["Node.js", "Express.js", "Embedded.js"],
-            imageUrl: ["/buzzbrewsandchills/buzz-home.png"]
+            imageUrl: ["/buzzbrewsandchills/buzz.png"]
         },
         {
             title: "Netflix Clone",

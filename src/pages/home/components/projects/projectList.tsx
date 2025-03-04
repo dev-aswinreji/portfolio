@@ -5,48 +5,55 @@ export default function ProjectList() {
     const github_link = `https://github.com/${github_username}`
     const projects = [
         {
-            title: 'E-Commerce Website',
-            description: 'A e-commerce website',
-            github_repo: 'buzzbrewsandchills',
-            liveDemo: 'http://localhost:3000',
-            techStack: ['Nodejs', 'Expressjs', 'Embeddedjs'],
-            imageUrl: ['/buzzbrewsandchills/buzz-home.png']
-            // , '/buzzbrewsandchills/buzz-cart.png', '/buzzbrewsandchills/buzz-name-change.png', '/buzzbrewsandchills/buzz-profile.png', '/buzzbrewsandchills/buzz-orderlist.png'], // Optional
+            title: "E-Commerce Website",
+            description: "Online store with Node.js and EJS.",
+            github_repo: "buzzbrewsandchills",
+            liveDemo: "https://buzzbrewsandchills.vercel.app",
+            techStack: ["Node.js", "Express.js", "Embedded.js"],
+            imageUrl: ["/buzzbrewsandchills/buzz-home.png"]
         },
         {
-            title: 'Netflix Website Clone',
-            description: 'Real-time chat app with WebSocket.',
-            github_repo: 'netflix-clone',
-            liveDemo: 'https://github.io/dev-aswinreji/netflix-clone',
-            techStack: ['Vite', 'TypeScript', 'React'],
-            imageUrl: ['/netflix/netflix-home.png',]
-            //  '/netflix/netflix-signup.png', '/netflix/netflix-movie-list.png', '/netflix/netflix-signin.png']
-        }, {
-            title: "OLX Website Clone",
-            description: "A personal portfolio to showcase my work.",
+            title: "Netflix Clone",
+            description: "Movie streaming UI with React.",
+            github_repo: "netflix-clone",
+            liveDemo: "https://personal-portfolio-ar.vercel.app",
+            techStack: ["Vite", "TypeScript", "React"],
+            imageUrl: ["/netflix/netflix-home.png"]
+        },
+        {
+            title: "OLX Clone",
+            description: "Buy-sell platform with Firebase.",
             github_repo: "olx-clone",
-            liveDemo: "https://portfolio-demo.com",
-            techStack: ["React", "TypeScript", "Firebase"],
-            imageUrl: ['/olx/olx-home.png',]
-            //  '/olx/olx-signin.png', '/olx/olx-sell.png', '/olx/olx-signup.png']
+            liveDemo: "https://olx-clone-ar.vercel.app",
+            techStack: ["React", "Cloudinary", "Firebase"],
+            imageUrl: ["/olx/olx-home.png"]
         },
         {
-            title: "Youtube Application Clone",
-            description: "Real-time chat app with WebSocket.",
+            title: "YouTube Clone",
+            description: "Video streaming with React.",
             github_repo: "youtube-clone",
-            liveDemo: "https://chat-app-demo.com",
-            techStack: ["Vite", "React", "TypeScript"],
-            imageUrl: ['/saitama.png']
+            liveDemo: "https://youtube-clone-ar.vercel.app",
+            techStack: ["Vite", "React", "JavaScript"],
+            imageUrl: ["/youtube/youtube.png"]
         },
         {
-            title: "Todo App",
-            description: "A weather app using public APIs.",
-            github_repo: "todo-app",
-            liveDemo: "https://weather-demo.com",
-            techStack: ["React", "OpenWeatherAPI", "Bootstrap"],
-            imageUrl: ["/saitama.png", "/saitama.png"]
+            title: "Rihla AI Planner",
+            description: "AI-powered travel planner.",
+            github_repo: "rihla-ai-frontend",
+            liveDemo: "https://rihla-ai.vercel.app",
+            techStack: ["React", "Beautiful Soup", "Python"],
+            imageUrl: ["/rihla-ai/rihla-ai.png"]
         },
+        {
+            title: "Swiggy Clone",
+            description: "Food-buying app with React",
+            github_repo: "swiggy-clone",
+            liveDemo: "https://swiggy-clone-ar.vercel.app",
+            techStack: ["Redux", "React", "JavaScript"],
+            imageUrl: ["/swiggy/swiggy.png"]
+        }
     ];
+
     return (
         <>
             <h1 className="project-heading" style={{ textAlign: "center" }}>Projects</h1>

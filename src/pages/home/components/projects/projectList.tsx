@@ -16,7 +16,7 @@ export default function ProjectList() {
             title: "Netflix Clone",
             description: "Movie streaming UI with React.",
             github_repo: "netflix-clone",
-            liveDemo: "https://personal-portfolio-ar.vercel.app",
+            liveDemo: "https://netflix-clone-ar.vercel.app",
             techStack: ["Vite", "TypeScript", "React"],
             imageUrl: ["/netflix/netflix-home.png"]
         },

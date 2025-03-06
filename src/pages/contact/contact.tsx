@@ -34,6 +34,16 @@ export default function Contact() {
                         GitHub
                     </a>
                 </div>
+                <div className="contact-item">
+                    <a href="aswin_resume.pdf" target="_blank" className="contact-link">
+                        View Resume
+                    </a>
+                </div>
+                <div className="contact-item">
+                    <a href="aswin_resume.pdf" download={"aswin_resume.pdf"} className="contact-link">
+                        Download Resume
+                    </a>
+                </div>
                 {/* <div className="contact-item">
                     <MdLocationOn className="contact-icon" />
                     <span className="contact-text">City, Country</span>

@@ -27,7 +27,7 @@ export default function Contact() {
                 <div className="contact-item">
                     <FaLinkedin className="contact-icon" />
                     <a href={`https://linkedin.com/in/${linkedn_username}`} target="_blank" className="contact-link">
-                        Linkedn
+                        LinkedIn
                     </a>
                     <FaGithub className="contact-icon" />
                     <a href={`https://github.com/${github_username}`} target="_blank" className="contact-link">
@@ -35,12 +35,12 @@ export default function Contact() {
                     </a>
                 </div>
                 <div className="contact-item">
-                    <a href="aswin_resume.pdf" target="_blank" className="contact-link">
+                    <a href="resume_01.pdf" target="_blank" className="contact-link">
                         View Resume
                     </a>
                 </div>
                 <div className="contact-item">
-                    <a href="aswin_resume.pdf" download={"aswin_resume.pdf"} className="contact-link">
+                    <a href="resume_01.pdf" download={"resume_01.pdf"} className="contact-link">
                         Download Resume
                     </a>
                 </div>

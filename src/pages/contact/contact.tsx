@@ -35,11 +35,6 @@ export default function Contact() {
                     </a>
                 </div>
                 <div className="contact-item">
-                    <a href="resume_01.pdf" target="_blank" className="contact-link">
-                        View Resume
-                    </a>
-                </div>
-                <div className="contact-item">
                     <a href="resume_01.pdf" download={"resume_01.pdf"} className="contact-link">
                         Download Resume
                     </a>

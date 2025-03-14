@@ -1,6 +1,7 @@
 import { MdMail, MdPhone } from "react-icons/md";
 import "./contact.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { RxResume } from "react-icons/rx";
 
 export default function Contact() {
     const phonenumber = import.meta.env.VITE_PHONENUMBER
@@ -35,7 +36,8 @@ export default function Contact() {
                     </a>
                 </div>
                 <div className="contact-item">
-                    <a href="resume_01.pdf" download={"resume_01.pdf"} className="contact-link">
+                    <RxResume className="contact-icon"/>
+                    <a href="aswin_reji_resume.pdf" download={"aswin_reji_resume.pdf"} className="contact-link">
                         Download Resume
                     </a>
                 </div>

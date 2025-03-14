@@ -37,6 +37,14 @@ export default function ProjectList() {
             imageUrl: ["/youtube/youtube.png"]
         },
         {
+            title:"Hitoku Chat App",
+            description:"Live Chat app using Nestjs and React",
+            github_repo: "chat-app",
+            liveDemo:"https://hitoku.vercel.app",
+            techStack:["NestJS","SocketIO","Daisy UI"],
+            imageUrl:["/hitoku/hitoku.png"]
+        },
+        {
             title: "Rihla AI Planner",
             description: "AI-powered travel planner.",
             github_repo: "rihla-ai-frontend",

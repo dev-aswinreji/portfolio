@@ -25,24 +25,24 @@ export default function ProjectCard({ title, description, githublink, liveDemo, 
             <p className="project-card-description">{description}</p>
             <div className="tech-stack">
                 {techStack.map((tech, index: number) => {
-                    if (tech === 'Expressjs') {
-                        return <a key={index} href={`https://${tech}.com`} className="tech-item" target="_blank">
+                    if (tech === "TypeScript") {
+                        return <a key={index} href={`https://typescriptlang.org`} className="tech-item" target="_blank">
                             {tech}
                         </a>
                     } else if (tech === 'Embeddedjs') {
-                        return <a key={index} href={`https://ejs.co`} className="tech-item" target="_blank">
+                        return <a key={index} href={`https://${tech}.co`} className="tech-item" target="_blank">
                             {tech}
                         </a>
                     } else if (tech === 'Firebase') {
                         return <a key={index} href={`https://${tech}.google.com`} className="tech-item" target="_blank">
                             {tech}
                         </a>
-                    } else if (tech === "Bootstrap") {
-                        return <a key={index} href={`https://getbootstrap.com`} target="_blank" className="tech-item">
+                    } else if (tech === "SocketIO") {
+                        return <a key={index} href={`https://${tech}.io`} target="_blank" className="tech-item">
                             {tech}
                         </a>
                     }
-                    return <a key={index} href={`https://${tech}.dev`} target="_blank" className="tech-item">
+                    return <a key={index} href={`https://${tech}.com`} target="_blank" className="tech-item">
                         {tech}
                     </a>
                 })}

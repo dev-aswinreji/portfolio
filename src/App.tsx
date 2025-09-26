@@ -6,6 +6,7 @@ import Contact from "./pages/contact/contact";
 import Home from "./pages/home/home";
 import Skills from "./pages/skills/skills";
 
+
 function App() {
   return (
     <>

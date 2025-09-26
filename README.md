@@ -1,5 +1,2 @@
 React Portfolio
-
-
-
-
+# Dependencies
